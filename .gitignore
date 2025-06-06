@@ -42,5 +42,6 @@ crafty-chiller-461800-f1-27a273b299c1.json
 .env.test.local
 .env.production.local
 .env
-
+development_plan.md
+examples/
 
