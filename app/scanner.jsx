@@ -469,7 +469,7 @@ export default function Scanner() {
           <Text variant="headlineMedium" style={globalStyles.title}>
             Scan Document
           </Text>
-          <View style={[globalStyles.buttonRow, { flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: 12, marginBottom: 12 }]}>
+          <View style={{ flexDirection: 'column', alignItems: 'center', gap: 12, marginBottom: 12 }}>
             {Platform.OS !== 'web' && (
               <Button 
                 icon="camera" 

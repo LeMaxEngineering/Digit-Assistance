@@ -111,7 +111,7 @@ export default function DashboardScreen() {
 
   return (
     <ImageBackground source={require('./assets/images/splash01.png')} style={globalStyles.backgroundImage}>
-      <ScrollView style={globalStyles.container} contentContainerStyle={{ flexGrow: 1 }}>
+      <ScrollView style={globalStyles.container} contentContainerStyle={{ flexGrow: 1, paddingBottom: 60 }}>
         {loading && (
           <View style={globalStyles.loadingOverlay}>
             <ActivityIndicator size="large" color="#1976D2" />
@@ -157,6 +157,11 @@ export default function DashboardScreen() {
         >
           Logged out
         </Snackbar>
+        <View style={{ alignItems: 'center', marginTop: 24, marginBottom: 8 }}>
+          <Text style={{ fontSize: 12, color: '#1976D2', textAlign: 'center' }}>
+            Digital Assistance v0.1Beta. Developed by LeMax Engineering LLC, USA. +1 561 506 9714
+          </Text>
+        </View>
       </ScrollView>
     </ImageBackground>
   );
