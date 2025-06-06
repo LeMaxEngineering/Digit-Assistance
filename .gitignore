@@ -36,3 +36,11 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+crafty-chiller-461800-f1-27a273b299c1.json
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+
